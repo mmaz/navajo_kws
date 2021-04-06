@@ -52,8 +52,8 @@ for kw in wanted_words:
 
 # %%
 # https://github.com/tinyMLx/colabs/blob/master/4-6-8-CustomDatasetKWSModel.ipynb
-# mkdir wavs
-# find *.ogg -print0 | xargs -0 basename -s .ogg | xargs -I {} ffmpeg -i {}.ogg -ar 16000 wavs/{}.wav
+# mkdir long_wavs
+# find *.ogg -print0 | xargs -0 basename -s .ogg | xargs -I {} ffmpeg -i {}.ogg -ar 16000 long_wavs/{}.wav
 # rm -r -f *.ogg
 # run els docker container
 
